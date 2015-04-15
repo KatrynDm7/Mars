@@ -1,7 +1,6 @@
-﻿<?php
+<?php
 
-interface IRover
-{
+interface IData {
 	function setInfo($media);
 	function getInfo();
 }

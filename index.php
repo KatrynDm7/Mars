@@ -1,12 +1,10 @@
 <?php
-include_once 'IProvider.php';
-include_once 'FileProvider.php';
-include_once 'Logic.php';
-include_once 'IRover.php';
-include_once 'Rover.php';
 
-$provider = new FileProvider();
-$logic = new Logic($provider);
-$rover = new Rover($logic);
-$rover->setInfo('input.txt');
-$rover->printDetails();
+include_once 'Rover.php';
+include_once 'IData.php';
+include_once 'Data.php';
+
+$rover = new Rover();
+$data = new Data($rover);
+$data->setInfo('input.txt');
+$data->printDetails();
