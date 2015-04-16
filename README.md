@@ -2,14 +2,13 @@
 
 The application uses Decorator pattern.<br/>
 The input data is read from the file.<br/>
-But the application is implemented in such way that will not be difficult to add the ability to read data from the DB.<br/><br/>
 
 Input:<br/>
 Each rover has two lines of input. The first line gives the rover's position [x and y co-ordinates and the rover's orientation], and the second line is a series of instructions telling the rover how to explore the plateau.  The possible letters are 'L', 'R' and 'M'. 'L' and 'R' makes the rover spin 90 degrees left or right respectively, without moving from its current spot.
 'M' means move forward one grid point, and maintain the same heading.
 <br/><br/>
 Output:<br/>
-The output for each rover should be it's final co-ordinates and heading.
+The output for each rover are final co-ordinates and heading.
 <br/><br/>
 Example
 <br/>
